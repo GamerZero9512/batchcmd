@@ -6,5 +6,6 @@ ver
 echo.
 set "input="
 set /p "input=%cd%>"
-call %~dp0cmdactions "%input%"
+title Command Prompt - %input%
+call %~dp0cmdactions %input%
 goto :input
